@@ -1,11 +1,11 @@
-homework-project-utils-examples
-===============================
+homework-project-utils-2025-examples
+====================================
 
-Examples to demonstrate how to use the [homework-project-utils](https://github.com/INBPM0420L/homework-project-utils/) library.
+Examples to demonstrate how to use the [homework-project-utils-2025](https://github.com/INBPM0420L/homework-project-utils-2025/) library.
 
 ## Documentation
 
-* [Javadoc](https://jeszy75.github.io/homework-project-utils-examples/)
+* [Javadoc](https://jeszy75.github.io/homework-project-utils-2025-examples/)
 
 ## Building the Code
 
