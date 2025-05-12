@@ -4,8 +4,8 @@ import game.BasicState;
 
 /**
  * Represents the states of the nim variant called the subtraction game. In this
- * game, two players are removing objects from a pile of objects in alternating
- * turns. On each turn, at least one object must be removed, however, no more
+ * game, two players remove objects from a pile of objects in alternating
+ * turns. On each turn, at least one object must be removed; however, no more
  * than {@code k} objects can be removed ({@code k} is a positive integer). The
  * winner of the game is the player who takes the last object.
  *

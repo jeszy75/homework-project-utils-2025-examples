@@ -4,7 +4,7 @@ import game.TwoPhaseMoveState;
 
 /**
  * Represents the states of a dummy two-player game that was created purely for
- * demonstrational purposes. The game is played on a board with
+ * demonstration purposes. The game is played on a board with
  * {@value BOARD_SIZE} rows and columns, respectively. Each corner square of the
  * board contains a coin, all the other squares are empty. The players move in
  * alternating turns. On each turn, a coin must be moved to an 8-adjacent empty
@@ -59,7 +59,7 @@ public class DummyState implements TwoPhaseMoveState<Position> {
     }
 
     /**
-     * {@return whether is it possible to move a coin from the source
+     * {@return whether it is possible to move a coin from the source
      * position specified}
      *
      * @param from the source position from which a move is to be made
@@ -70,7 +70,7 @@ public class DummyState implements TwoPhaseMoveState<Position> {
     }
 
     /**
-     * {@return whether is it possible to move a coin from the source position
+     * {@return whether it is possible to move a coin from the source position
      * specified to the target position specified}
      *
      * @param from the source position
@@ -120,6 +120,7 @@ public class DummyState implements TwoPhaseMoveState<Position> {
     private boolean isOnBoard(int row, int col) {
         return 0 <= row && row < BOARD_SIZE && 0 <= col && col < BOARD_SIZE;
     }
+
     private boolean isEmpty(Position p) {
         return !board[p.row()][p.col()];
     }

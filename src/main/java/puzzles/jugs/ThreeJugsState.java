@@ -8,12 +8,12 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Represents the states of the three jugs problem also known as a water pouring
+ * Represents the states of the three jugs problem, also known as a water pouring
  * puzzle. Consider three jugs, whose capacities are 3, 5, and 8 liters,
  * respectively. Initially, the two smaller jugs are full of water, and the
- * largest jugs is empty. The goal of the puzzle is to have 4-4 liters of water
+ * largest jugs is empty. The puzzle's goal is to have 4-4 liters of water
  * in the larger two jugs. In a move, water can be poured from a non-empty jug
- * into another one that is not fully loaded.
+ * into another that is not fully loaded.
  *
  * @see <a href="https://en.wikipedia.org/wiki/Water_pouring_puzzle">Water pouring puzzle</a>
  */
@@ -57,7 +57,7 @@ public class ThreeJugsState implements TwoPhaseMoveState<Integer> {
     }
 
     /**
-     * {@return whether is it possible to pour a source jug into a target jug}
+     * {@return whether it is possible to pour a source jug into a target jug}
      * The jugs are identified with the integers 0, 1, and 2, respectively.
      *
      * @param move wraps the numbers of the source and the target jugs
